@@ -1,0 +1,75 @@
+/* styles.css */
+* {
+    /* border: 1px dotted red; */
+    font-family: Palanquin, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", Noto Color Emoji";
+} 
+
+.navbar {
+    background-color: rgba(255,255,255, .4);
+}
+.navbar-brand {
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.link-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo-section {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.logo {
+    width: 3vw;
+    min-width: 30px;
+    height: auto;
+    margin-right: 30px;
+} 
+.container {
+    margin-bottom: 10vw;
+}
+
+.profile-row {
+    margin-top: 5vw;
+    height: 50vh;
+}
+
+.about-row {
+    height: 30vh;
+}
+
+.picture {
+    justify-content: center;
+    align-items: center;
+}
+
+.about-text {
+    font-size: 150%;
+}
+
+.picture-text-container {
+    vertical-align: middle;
+}
+
+.picture-text {
+    margin-bottom: 0;
+    font-size: 4vh;
+}
+
+.name-text {
+    margin-bottom: 0;
+    font-size: 5vh;
+}
+
+.name {
+    font-size: 2.2vh;
+}
+
+.break {
+    flex-basis: 100%;
+    height: 0;
+}
